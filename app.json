@@ -1,32 +1,15 @@
 {
   "expo": {
     "name": "Todayly",
-    "slug": "Todayly",
+    "slug": "todayly",
     "version": "1.0.0",
-
-    "scheme": "Todayly",
-    "platforms": ["ios", "android"],
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": ["expo-router"],
-    "experiments": {
-      "typedRoutes": true,
-
-      "tsconfigPaths": true
-    },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F5F7FF"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
@@ -35,7 +18,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#F5F7FF"
       }
     }
   }
